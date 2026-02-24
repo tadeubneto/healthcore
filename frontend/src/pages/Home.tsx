@@ -1,8 +1,16 @@
+import AboutSection from "../components/AboutSection";
+import ContactSection from "../components/ContactSection";
+import Header from "../components/Header";
+import HeroSection from "../components/HeroSection";
+
 const Home = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <h1>teste</h1>
-    </div>
+    <>
+      <HeroSection />
+      <Header />
+      <AboutSection />
+      <ContactSection />
+    </>  
   )
 }
 export default Home;
